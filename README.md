@@ -12,13 +12,13 @@
 
 ```python
 
-from ezdaemon.ezdaemon import win
+from ezdaemon.ezdaemon import windows
 
-win.cmd()
+windows.cmd()
 
 # method (via cmd)
 
-win.powershell()
+windows.powershell()
 
 # method (via powershell)
 
@@ -48,9 +48,9 @@ linux.setsid()
 
 ```python
 
-from ezdaemon.ezdaemon import UNIX
+from ezdaemon.ezdaemon import unix
 
-UNIX.default()
+unix.default()
 
 # works with any unix based
 
