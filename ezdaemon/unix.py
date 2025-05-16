@@ -10,5 +10,14 @@ def default(Program):
         r"""## works with any UNIX-based"""
 
         system(f"{Program} &")
+        # <----- 1 ----->
+
+
+def disown(Program):
+        """# method 2 --> disown"""
+
+        system(f"{Program} & disown")
+
+        # <----- 2 ----->
 
         # <----- END ----->
