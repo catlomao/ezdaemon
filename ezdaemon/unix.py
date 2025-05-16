@@ -15,7 +15,7 @@ def default(Program):
 
 def disown(Program):
         """# method 2 --> disown"""
-
+# doesn't shit itself and exit
         system(f"{Program} & disown")
 
         # <----- 2 ----->
