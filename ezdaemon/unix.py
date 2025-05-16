@@ -1,12 +1,12 @@
-from os import system
-
-#       !<<<<----- UNIX ----->>>>!
-class UNIX:
-    r"""
+r"""
     ## Run Programs in the background , on
     ## ANY UNIX -->  FREEBSD , OPENBSD , MACOS  , etc....
     """
-    def default(Program):
+from os import system
+
+#       !<<<<----- UNIX ----->>>>!
+
+def default(Program):
         r"""## works with any UNIX-based"""
 
         system(f"{Program} &")
