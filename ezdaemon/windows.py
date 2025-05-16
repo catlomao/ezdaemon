@@ -9,7 +9,7 @@ from os import system
 def powershell(Program):
         r"""# method 1 --> powershell"""
 
-        system(f'Start-Process "{Program}" -WindowStyle Hidden')
+        system(f'f'powershell -Command "Start-Process \'{Program}\' -WindowStyle Hidden"'')
 
         # <----- 1 ----->
 
