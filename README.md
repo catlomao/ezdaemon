@@ -52,6 +52,9 @@ from ezdaemon.ezdaemon import unix
 
 unix.default()
 
+
+unix.disown()
+
 # works with any unix based
 
 ```
