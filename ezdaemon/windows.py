@@ -8,14 +8,14 @@ from os import system
 
 def powershell(Program):
         r"""# method 1 --> powershell"""
-
-        system(f'f'powershell -Command "Start-Process \'{Program}\' -WindowStyle Hidden"'')
+#region powershell
+        system(f'powershell -Command "Start-Process \'{Program}\' -WindowStyle Hidden"')
 
         # <----- 1 ----->
 
 def cmd(Program):
         r"""# method 2 --> cmd"""
-
+#region cmd
         system(f'start /B "{Program}"')
 
         # <----- 2 ----->
