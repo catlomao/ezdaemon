@@ -13,7 +13,7 @@
 
 ```python
 
-from ezdaemon import win
+from ezdaemon.ezdaemon import win
 
 win.cmd()
 
@@ -29,7 +29,7 @@ win.powershell()
 
 ```python
 
-from ezdaemon import linux
+from ezdaemon.ezdaemon import linux
 
 linux.default()
 
@@ -49,7 +49,7 @@ linux.setsid()
 
 ```python
 
-from ezdaemon import UNIX
+from ezdaemon.ezdaemon import UNIX
 
 UNIX.default()
 
